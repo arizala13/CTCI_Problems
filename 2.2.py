@@ -3,7 +3,7 @@
 # Write an algorithm to find the kth to the last
 # element of a singly linked list
 # Original solution from: https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
-# Time complexity:
+# Time complexity: O(n) where n is the length of linked list.
 # Space complexity:
 
 # Simple Python3 program to find
