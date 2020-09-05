@@ -13,7 +13,9 @@ def remove_duplicates(passed_list):
         else:
             new_list.append(num)
 
-    print(new_list)
+        passed_list = new_list
+
+    print(passed_list)
 
 
 remove_duplicates([10, 13, 18, 8, 8, 4, 10, 14])

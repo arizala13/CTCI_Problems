@@ -6,14 +6,17 @@
 # Time complexity: O(n) where n is the length of linked list.
 # Space complexity:
 
-# Simple Python3 program to find
-# n'th node from end
+# finds the nth node from end
+
+# Class node creates the Nodes themselves
+#
 class Node:
     def __init__(self, new_data):
         self.data = new_data
         self.next = None
 
 
+# class LinkedList
 class LinkedList:
     def __init__(self):
         self.head = None
@@ -24,8 +27,7 @@ class LinkedList:
         new_node.next = self.head
         self.head = new_node
 
-        # Function to get the nth node from
-
+    # Function to get the nth node from
     # the last of a linked list
     def print_nth_from_last(self, n):
         temp = self.head  # used temp variable
